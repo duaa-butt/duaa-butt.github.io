@@ -1,0 +1,594 @@
+/* MIDNIGHT GOTHIC PORTFOLIO */
+
+body {
+    background-color: #151316;
+    color: #E8E0DF;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.navbar {
+    background-color: #211B20 !important;
+    border-bottom: 2px solid #8A394D;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-brand {
+    color: #E8E0DF !important;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-right: 40px;
+}
+
+.navbar-collapse {
+    flex-grow: 1;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.navbar-nav .nav-link {
+    color: #B9AAB0 !important;
+    letter-spacing: 2px;
+    font-size: 13px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFFFF !important;
+    border-bottom: 1px solid #8A394D;
+}
+
+.dropdown-menu {
+    background-color: #211B20;
+    border: 1px solid #571E2B;
+}
+
+.dropdown-item {
+    color: #E8E0DF;
+}
+
+.dropdown-item:hover {
+    background-color: #571E2B;
+    color: #FFFFFF;
+}
+
+.welcome {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(180deg, #211B20, #151316);
+    border-bottom: 1px solid #571E2B;
+}
+
+.welcome-label {
+    color: #B06A7B;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+.welcome h1 {
+    color: #E8E0DF;
+    font-size: 48px;
+    margin: 25px 0;
+}
+
+.welcome-text {
+    color: #B9AAB0;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.portfolio-button {
+    display: inline-block;
+    color: #E8E0DF;
+    border: 1px solid #8A394D;
+    padding: 12px 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.portfolio-button:hover {
+    background-color: #571E2B;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* MY WORK SECTION */
+
+.my-work {
+    background-color: #151316;
+    padding: 80px 7%;
+    text-align: center;
+}
+
+.section-label {
+    color: #B06A7B;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+.my-work h2 {
+    color: #E8E0DF;
+    font-size: 42px;
+    margin: 15px 0;
+}
+
+.section-intro {
+    color: #B9AAB0;
+    margin-bottom: 45px;
+}
+
+.work-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.work-card {
+    background-color: #211B20;
+    border: 1px solid #571E2B;
+    padding: 15px;
+    width: 280px;
+    text-align: left;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.work-card:hover {
+    transform: translateY(-6px);
+    border-color: #B06A7B;
+}
+
+.work-image {
+    background-color: #30232B;
+    color: #B9AAB0;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.work-card h3 {
+    color: #E8E0DF;
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.work-card p {
+    color: #B9AAB0;
+    font-size: 14px;
+}
+
+.work-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.work-card:hover {
+    text-decoration: none;
+}
+
+/* ILLUSTRATION GALLERY */
+
+.illustration-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.artwork-card {
+    width: 280px;
+    background-color: #211B20;
+    border: 1px solid #571E2B;
+    padding: 12px;
+    transition: transform 0.3s ease;
+}
+
+.artwork-card:hover {
+    transform: translateY(-5px);
+}
+
+.artwork-placeholder {
+    height: 300px;
+    background-color: #30232B;
+    color: #B9AAB0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.artwork-card p {
+    color: #E8E0DF;
+    margin: 15px 0 5px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.artwork-image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    background-color: #30232B;
+}.artwork-image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    background-color: #30232B;
+}
+
+/* Gothic Portfolio Footer */
+.gothic-footer {
+    background-color: #211B20;
+    border-top: 2px solid #571E2B;
+    text-align: center;
+    padding: 45px 20px 25px;
+    margin-top: 50px;
+}
+
+.footer-decoration {
+    color: #B06A7B;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.gothic-footer h3 {
+    color: #E8E0DF;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.gothic-footer p {
+    color: #B9AAB0;
+    font-size: 13px;
+}
+
+.gothic-footer a {
+    display: inline-block;
+    color: #E8E0DF;
+    border: 1px solid #8A394D;
+    padding: 10px 20px;
+    margin: 12px 0 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.gothic-footer a:hover {
+    background-color: #571E2B;
+    color: #FFFFFF;
+}
+
+.gothic-footer .footer-copyright {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* ABOUT ME SECTION */
+.about-section {
+    background: linear-gradient(135deg, #211B20, #151316);
+    padding: 80px 10%;
+    text-align: center;
+    border-top: 1px solid #571E2B;
+    border-bottom: 1px solid #571E2B;
+}
+
+.about-section .section-label,
+.skills-section .section-label {
+    color: #B06A7B;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.about-section h2,
+.skills-section h2 {
+    color: #E8E0DF;
+    font-size: 38px;
+    margin: 20px 0;
+}
+
+.about-section .section-intro,
+.skills-section .section-intro {
+    color: #B9AAB0;
+    font-size: 16px;
+    line-height: 1.9;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* MY SKILLS SECTION */
+.skills-section {
+    background-color: #151316;
+    padding: 80px 10%;
+    text-align: center;
+    border-bottom: 1px solid #571E2B;
+}
+
+/* SOFTWARE SECTION */
+.software-section {
+    background: linear-gradient(180deg, #211B20, #151316);
+    padding: 80px 7%;
+    text-align: center;
+    border-top: 1px solid #571E2B;
+    border-bottom: 1px solid #571E2B;
+}
+
+.software-section h2 {
+    color: #E8E0DF;
+    font-size: 38px;
+    margin: 20px 0;
+}
+
+.software-section .section-intro {
+    color: #B9AAB0;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.software-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.software-card {
+    background-color: #151316;
+    border: 1px solid #571E2B;
+    padding: 28px 18px;
+    width: 230px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.software-card:hover {
+    transform: translateY(-5px);
+    border-color: #B06A7B;
+}
+
+.software-card h3 {
+    color: #E8E0DF;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.software-card p {
+    color: #B9AAB0;
+    font-size: 13px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+.software-logo {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    border-radius: 16px;
+}
+
+.software-card:hover .software-logo {
+  transform: scale(1.08);
+}
+
+/* Welcome background artwork carousel */
+.welcome {
+  position: relative;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #151316;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.welcome #welcomeCarousel,
+.welcome-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome #welcomeCarousel {
+  z-index: 0;
+}
+
+.welcome .carousel-inner,
+.welcome .carousel-item {
+  height: 100%;
+}
+
+.welcome-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+.welcome-overlay {
+  z-index: 1;
+  background: linear-gradient(
+    rgba(21, 19, 22, 0.45),
+    rgba(21, 19, 22, 0.8)
+  );
+}
+
+.welcome-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Keep the welcome text readable */
+.welcome h1,
+.welcome .welcome-label,
+.welcome .welcome-text {
+  text-shadow: 0 2px 12px #151316;
+}
+
+/* Illustration page introduction */
+.illustration-welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.illustration-welcome .welcome-label,
+.illustration-welcome h1 {
+    margin: 0;
+}
+
+.illustration-welcome .portfolio-button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* CONTACT ME SECTION */
+.contact-section {
+  background: linear-gradient(135deg, #211B20, #151316);
+  padding: 85px 10%;
+  text-align: center;
+  border-top: 1px solid #571E2B;
+}
+
+.contact-section .section-label {
+  color: #B06A7B;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+.contact-section h2 {
+  color: #E8E0DF;
+  font-family: Georgia, serif;
+  font-size: 38px;
+  margin: 20px 0;
+}
+
+.contact-intro {
+  color: #B9AAB0;
+  font-size: 16px;
+  line-height: 1.9;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.contact-button {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+
+.contact-social-label {
+  color: #B06A7B;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.instagram-link {
+  color: #E8E0DF;
+  text-decoration: none;
+  border-bottom: 1px solid #8A394D;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.instagram-link:hover {
+  color: #B06A7B;
+  text-decoration: none;
+}
+
+/* Pictures inside My Work cards */
+.work-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-color: #211B20;
+}
+
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.work-card:hover .work-image img {
+  transform: scale(1.05);
+}
+
+/* Illustrations accordion */
+.illustration-option {
+  margin-top: 10px;
+}
+
+.gothic-accordion-button {
+  width: 100%;
+  background-color: #211B20;
+  color: #E8E0DF;
+  border: 1px solid #571E2B;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.gothic-accordion-button:hover,
+.gothic-accordion-button:focus {
+  background-color: #571E2B;
+  color: #E8E0DF;
+  outline: none;
+}
+
+.accordion-content {
+  background-color: #151316;
+  color: #B9AAB0;
+  border: 1px solid #571E2B;
+  border-top: none;
+  padding: 15px;
+}
+
+.gothic-button {
+  background-color: #571E2B;
+  color: #E8E0DF;
+  border: 1px solid #8A394D;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.gothic-button:hover {
+  background-color: #8A394D;
+  color: #FFFFFF;
+}
+
+.behind-intro {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 0 15px;
+    color: #B9AAB0;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.8;
+}
